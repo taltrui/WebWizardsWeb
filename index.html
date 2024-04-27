@@ -3,123 +3,183 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/font.css" />
+    <link rel="stylesheet" href="styles/welcome.css" />
+    <link rel="stylesheet" href="styles/mission.css" />
+    <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/proposal.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <title>WebWizards Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="assets/logo.png" alt="webwizards-logo" style="height: 150px;"/>
-      </div>
-      <nav>
+    <header class="header space-grotesk-regular">
+      <nav class="navbar">
+        <div class="header-title-container">
+          <img src="assets/logo.png" alt="WebWizards Logo" />
+          <span class="header-title space-grotesk-semiBold">WEBWIZARDS</span>
+        </div>
         <ul>
-          <li><a href="#mision">Misión</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#propuesta">Propuesta Comercial</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#mission">Misión</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#proposal">Propuesta Comercial</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
-    <section id="bienvenida">
-      <h1>Bienvenido a WebWizards Studio</h1>
-      <p>Soluciones profesionales para tus necesidades.</p>
+    <section id="welcome" class="welcome-section">
+      <div>
+        <h1 class="welcome-title space-grotesk-semiBold">
+          Bienvenido a WebWizards Studio
+        </h1>
+        <p class="welcome-subtitle">
+          Soluciones profesionales para tus necesidades.
+        </p>
+      </div>
+      <img
+        src="assets/lab-experiment.png"
+        alt="Bienvenido a WebWizards Studio"
+        class="welcome-image"
+      />
     </section>
 
-    <section id="mision">
-      <h2>Misión</h2>
-      <p>
-        En WebWizards Studio, nuestra misión es empoderar a las empresas para
-        que alcancen su máximo potencial en el entorno digital. Nos dedicamos a
-        transformar ideas en soluciones web innovadoras que impulsen el
-        crecimiento, mejoren la experiencia del usuario y potencien la
-        visibilidad en línea de nuestros clientes. Creemos en el poder de la
-        tecnología para conectar a las personas y las empresas,
-        independientemente de su tamaño o industria, con sus audiencias de
-        manera efectiva y memorable.
-      </p>
-    </section>
-
-    <section id="servicios">
-      <h2>Servicios Ofrecidos</h2>
-      <div class="servicio">
-        <h3>Diseño Web Personalizado</h3>
-        <p>
-          Creación de sitios web atractivos y funcionales, optimizados para
-          dispositivos y pantallas de todo tipo. Nos enfocamos en la experiencia
-          del usuario (UX) y el diseño de interfaces (UI) para maximizar las
-          conversiones.
-        </p>
+    <section id="mission" class="mission-section">
+      <div>
+        <h1 class="space-grotesk-semiBold mission-title">Misión</h1>
+        <p>Conoce sobre nosotros y sé parte de nuestro impulso</p>
       </div>
-      <div class="servicio">
-        <h3>Desarrollo Web a Medida</h3>
-        <p>
-          Ofrecemos soluciones de desarrollo web personalizadas, utilizando
-          tecnologías de punta para crear sitios web seguros, rápidos y
-          escalables. Nos especializamos en el desarrollo de aplicaciones web
-          progresivas (PWAs), portales de clientes y plataformas de comercio
-          electrónico.
+      <div class="mission-container">
+        <p class="mission-text">
+          Empoderar a las empresas para que alcancen su máximo potencial en el
+          entorno digital, sin importar de su tamaño o industria,
         </p>
-      </div>
-      <div class="servicio">
-        <h3>Optimización para Motores de Búsqueda (SEO)</h3>
-        <p>
-          Implementamos estrategias de SEO efectivas para mejorar la visibilidad
-          en línea y atraer tráfico orgánico de calidad. Nuestro enfoque incluye
-          tanto SEO on-page como off-page, con análisis y reportes continuos.
+        <div class="mission-separator"></div>
+        <p class="mission-text">
+          Creemos en el poder de la tecnología para conectar a las personas y
+          las empresas, logrando potencial su contenido y acompañar ese proceso.
         </p>
-      </div>
-      <div class="servicio">
-        <h3>Marketing Digital y Estrategia de Contenidos</h3>
-        <p>
-          Proporcionamos servicios integrados de marketing digital para
-          fortalecer su presencia en línea, incluyendo manejo de redes sociales,
-          email marketing y campañas de pago por clic (PPC). También creamos
-          contenido valioso para involucrar a su audiencia y fomentar
-          conversiones.
-        </p>
-      </div>
-      <div class="servicio">
-        <h3>Mantenimiento y Soporte Web</h3>
-        <p>
-          Mantenemos su sitio web actualizado, seguro y funcionando sin
-          problemas con nuestros planes de mantenimiento web. Nuestro equipo
-          ofrece soporte técnico proactivo y una respuesta rápida a cualquier
-          problema o necesidad de actualización.
+        <div class="mission-separator"></div>
+        <p class="mission-text">
+          Transformar ideas en soluciones web innovadoras que mejoren la
+          experiencia del usuario y potencien la visibilidad en línea, con sus
+          audiencias de manera efectiva y memorable.
         </p>
       </div>
     </section>
 
-    <section id="propuesta">
-      <h2>Propuesta Comercial</h2>
-      <p>
-        En WebWizards Studio, entendemos que cada negocio es único. Por eso,
-        nuestra propuesta comercial se basa en la personalización y la
-        flexibilidad. Trabajamos de cerca con nuestros clientes para entender
-        sus necesidades específicas y objetivos de negocio, ofreciendo
-        soluciones web que no solo cumplan sino que superen sus expectativas.
-        Nuestro enfoque colaborativo asegura que cada proyecto refleje la
-        esencia de su marca, mientras implementamos las mejores prácticas de
-        desarrollo y marketing digital para garantizar su éxito en línea. Nos
-        enorgullecemos de nuestra capacidad para entregar proyectos a tiempo y
-        dentro del presupuesto, con una transparencia total en precios y
-        procesos. Con WebWizards Studio, obtienes no solo un proveedor de
-        servicios, sino un socio estratégico dedicado a tu crecimiento en línea.
-      </p>
+    <section id="services" class="services-section">
+      <div>
+        <h1 class="space-grotesk-semiBold">Servicios Ofrecidos</h1>
+        <p>Que tenemos para ofrecerte</p>
+      </div>
+      <div class="services-container">
+        <div class="service-info">
+          <h3 class="space-grotesk-semiBold">Diseño Web Personalizado</h3>
+          <p>
+            Creación de sitios web atractivos y funcionales, optimizados para
+            dispositivos y pantallas de todo tipo. Nos enfocamos en la
+            experiencia del usuario (UX) y el diseño de interfaces (UI) para
+            maximizar las conversiones.
+          </p>
+        </div>
+        <div class="service-info">
+          <h3 class="space-grotesk-semiBold">Desarrollo Web a Medida</h3>
+          <p>
+            Ofrecemos soluciones de desarrollo web personalizadas, utilizando
+            tecnologías de punta para crear sitios web seguros, rápidos y
+            escalables. Nos especializamos en el desarrollo de aplicaciones web
+            progresivas (PWAs), portales de clientes y plataformas de comercio
+            electrónico.
+          </p>
+        </div>
+        <div class="service-info">
+          <h3 class="space-grotesk-semiBold">
+            Optimización para Motores de Búsqueda (SEO)
+          </h3>
+          <p>
+            Implementamos estrategias de SEO efectivas para mejorar la
+            visibilidad en línea y atraer tráfico orgánico de calidad. Nuestro
+            enfoque incluye tanto SEO on-page como off-page, con análisis y
+            reportes continuos.
+          </p>
+        </div>
+        <div class="service-info">
+          <h3 class="space-grotesk-semiBold">Mantenimiento y Soporte Web</h3>
+          <p>
+            Mantenemos su sitio web actualizado, seguro y funcionando sin
+            problemas con nuestros planes de mantenimiento web. Nuestro equipo
+            ofrece soporte técnico proactivo y una respuesta rápida a cualquier
+            problema o necesidad de actualización.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <form>
-        <input type="text" placeholder="Nombre" />
-        <input type="email" placeholder="Correo electrónico" />
-        <textarea placeholder="Tu mensaje"></textarea>
-        <button type="submit">Enviar</button>
+    <section id="proposal" class="proposal-section">
+      <img src="assets/proposal.png" alt="Prupuesta" class="proposal-image" />
+      <div>
+        <h2 class="proposal-title space-grotesk-semiBold">
+          Propuesta Comercial
+        </h2>
+        <p class="proposal-subtitle">
+          En WebWizards Studio, reconocemos la singularidad de cada negocio.
+          Nuestra propuesta se centra en la personalización y la flexibilidad,
+          trabajando estrechamente con nuestros clientes para ofrecer soluciones
+          web que superen sus expectativas. Nuestro enfoque colaborativo
+          garantiza que cada proyecto refleje la esencia de su marca, empleando
+          las mejores prácticas para asegurar su éxito en línea. Nos destacamos
+          por entregar proyectos a tiempo, dentro del presupuesto, y con total
+          transparencia. Con nosotros, ganas un socio estratégico dedicado a tu
+          crecimiento en línea.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <form class="contact-form space-grotesk-regular">
+        <div class="contact-field">
+          <span>Nombre</span>
+          <input
+            type="text"
+            placeholder="Nombre"
+            title="Nombre"
+            class="contact-input"
+          />
+        </div>
+        <div class="contact-field">
+          <span>Email</span>
+          <input
+            type="text"
+            placeholder="Email"
+            title="Email"
+            class="contact-input"
+          />
+        </div>
+        <div class="contact-field">
+          <span>Mensaje</span>
+          <textarea
+            placeholder="Escribinos tu mensaje"
+            class="contact-textarea"
+          ></textarea>
+        </div>
+        <button type="submit" class="contact-button">Enviar</button>
       </form>
     </section>
 
-    <footer>
-      <p>&copy; 2024 WebWizards Studio. Todos los derechos reservados.</p>
+    <footer class="footer">
+      <p class="space-grotesk-regular">
+        &copy; 2024 WebWizards Studio. Todos los derechos reservados.
+      </p>
     </footer>
   </body>
 </html>

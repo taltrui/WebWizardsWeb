@@ -1,0 +1,35 @@
+.mission-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mission-container {
+  display: flex;
+}
+
+.mission-separator {
+  width: 1px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-self: center;
+  margin: 0 20px;
+}
+
+.mission-title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .mission-separator {
+    height: 1px;
+    width: 200px;
+    margin: 20px 0px;
+    align-self: self-start;
+  }
+
+  .mission-container {
+    flex-direction: column;
+  }
+}

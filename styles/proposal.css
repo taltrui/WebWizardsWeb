@@ -1,0 +1,25 @@
+.proposal-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.proposal-image {
+  width: 250px;
+  margin-right: 42px;
+}
+
+@media screen and (max-width: 768px) {
+  .proposal-image {
+    display: none;
+  }
+  .proposal-section {
+    justify-content: center;
+    justify-content: center;
+  }
+  .proposal-title {
+    max-width: fit-content;
+  }
+}

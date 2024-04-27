@@ -1,0 +1,32 @@
+.welcome-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.welcome-title {
+  font-size: 2rem;
+  max-width: 300px;
+}
+
+.welcome-image {
+  width: 250px;
+  margin-right: 42px;
+}
+
+.welcome-subtitle {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .welcome-image {
+    display: none;
+  }
+  .welcome-section {
+    justify-content: center;
+  }
+  .welcome-title {
+    max-width: fit-content;
+  }
+}
